@@ -36,9 +36,41 @@ public class Main {
         }
 
         System.out.println(" Задача 4");
+        int savings4 = 15_000;
+        int total4 = 0;
+        int i4 = 0;
+        while (total4 < 12_000_000) {
+            i4++;
+            total4 = total4 + (total4/100)*7;
+            total4 = total4 + savings4;
+            System.out.println("Месяц " + i4 + ", сумма накоплений равна " + total4 + " рублей");
+        }
 
         System.out.println(" Задача 5");
+        int savings5 = 15_000;
+        int total5 = 0;
+        int i5 = 0;
+        while (total5 < 12_000_000) {
+            i5++;
+            total5 = total5 + (total5/100)*7;
+            total5 = total5 + savings5;
+            if (i5 %6 == 0){
+            System.out.println("Месяц " + i5 + ", сумма накоплений равна " + total5 + " рублей");
+        }}
+
         System.out.println(" Задача 6");
+        int savings6 = 15_000;
+        int total6 = 0;
+        int i6 = 0;
+        int months = 12 * 9;
+        while (i6 < months) {
+            i6++;
+            total6 = total6 + (total6/100)*7;
+            total6 = total6 + savings6;
+            if (i6 %6 == 0){
+                System.out.println("Месяц " + i6 + ", сумма накоплений равна " + total6 + " рублей");
+            }}
+
         System.out.println(" Задача 7");
         int friday = 5;
         int day = 1;
