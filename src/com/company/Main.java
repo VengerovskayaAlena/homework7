@@ -28,9 +28,9 @@ public class Main {
 
         System.out.println(" Задача 3");
         int people = 12_000_000;
-        int birthRate = people / 1_000 * 17;
-        int mortalityRate = people / 1_000 * 8;
         for (int year = 1; year <= 10; year++) {
+            int birthRate = people / 1_000 * 17;
+            int mortalityRate = people / 1_000 * 8;
             people = people + birthRate - mortalityRate;
             System.out.println("Год " + year + ", численность населения составляет " + people);
         }
